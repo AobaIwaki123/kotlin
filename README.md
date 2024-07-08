@@ -8,12 +8,31 @@
 - variables
   - val: read-only
   - var: mutable
+  - print variable: 
+    - println("it's $variable")
+    - println("it's ${variable + 1}")
+  - 型推論あり
 - Basic types
 - Collections
 - Control flow
 - Functions
 - Classes
 - Null safety
+
+## Basic Types
+
+For more information on basic types and their properties, see [Basic types](https://kotlinlang.org/docs/basic-types.html).
+
+
+| Category                 | **Basic types**                      |
+|--------------------------|----------------------------|
+| **Integers**             | Byte, Short, Int, Long     |
+| **Unsigned integers**    | UByte, UShort, UInt, ULong |
+| **Floating-point numbers** | Float, Double              |
+| **Booleans**             | Boolean                    |
+| **Characters**           | Char                       |
+| **Strings**              | String                     |
+
 
 ## 参考
 
