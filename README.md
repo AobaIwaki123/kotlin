@@ -17,6 +17,10 @@
   - each collection type can be mutable or read-only
   - casting is supported
 - Control flow
+  - if, when
+  - range
+    - `1..4`, `1..<4`, `4 downTo 1`, `1..5 step 2`
+  - for, while(do-while)
 - Functions
 - Classes
 - Null safety
